@@ -1,1 +1,13 @@
-BilisarilingServer
+{
+  "listen": ":5666",
+  "cert": "/etc/hysteria/server.crt",
+  "key": "/etc/hysteria/server.key",
+  "up_mbps": 2,
+  "down_mbps": 3,
+  "disable_udp": false,
+  "obfs": "BilisarilingServer",
+  "auth": {
+    "mode": "passwords",
+    "config": ["BilisarilingServer", "BilisarilingServer"]
+  }
+}
